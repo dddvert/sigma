@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sigma Shop - Корзина</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><a href="index.html">Sigma Shop</a></div>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="delivery.html">Доставка</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+                <li><a href="cart.html">Корзина</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="cart">
+            <h1>Корзина</h1>
+            
+            <div class="cart-items">
+                <div class="cart-item">
+                    <img src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b" alt="Футболка">
+                    <div class="item-details">
+                        <h3>Футболка базовая</h3>
+                        <p>12000 тг</p>
+                    </div>
+                    <div class="quantity">
+                        <button class="btn-minus">-</button>
+                        <input type="number" value="1" min="1">
+                        <button class="btn-plus">+</button>
+                    </div>
+                    <button class="btn-remove">Удалить</button>
+                </div>
+
+                <div class="cart-item">
+                    <img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246" alt="Джинсы">
+                    <div class="item-details">
+                        <h3>Джинсы классические</h3>
+                        <p>35000 тг</p>
+                    </div>
+                    <div class="quantity">
+                        <button class="btn-minus">-</button>
+                        <input type="number" value="1" min="1">
+                        <button class="btn-plus">+</button>
+                    </div>
+                    <button class="btn-remove">Удалить</button>
+                </div>
+            </div>
+
+            <div class="cart-summary">
+                <h2>Итого:</h2>
+                <div class="summary-item">
+                    <span>Товары (2):</span>
+                    <span>47000 тг</span>
+                </div>
+                <div class="summary-item">
+                    <span>Доставка:</span>
+                    <span>3000 тг</span>
+                </div>
+                <div class="summary-total">
+                    <span>К оплате:</span>
+                    <span>50000 тг </span>
+                </div>
+                <button class="btn-checkout">Оформить заказ</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Sigma Shop. Все права защищены.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
